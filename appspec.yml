@@ -16,6 +16,6 @@ hooks:
   ApplicationStart:
     - location: deploy-scripts/application-start-hook.sh
       timeout: 300
-  ValidationService:
+  ValidateService:
     - location: deploy-scripts/simulate-failure.sh
       
